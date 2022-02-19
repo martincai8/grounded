@@ -26,7 +26,7 @@ body {
     width: 124px;
     height: 124px;
     border-radius: 50%;
-    border: 2.5px solid #87B2D9;
+    border: 2.5px solid #bdd0e2;
     box-sizing: border-box;
     margin-right: 20px;
     background-color: #E1EBF5;
@@ -55,16 +55,36 @@ body {
     margin: 0px 5px 0px 5px;
 } */
 
-button:hover {
-    background-color: #87B2D9;
-    color: white;
-    cursor: pointer;
-}
 
 .option-selected{
     border: 2.5px solid #87B2D9;
     background: radial-gradient(50% 50% at 50% 50%, rgba(177, 204, 229, 0.47) 0%, #87B2D9 100%);
 }   
+
+
+
+
+#option1 {
+    border: 2.5px solid #87B2D9;
+    transition: ease-out 2s;
+
+}
+
+#option1:hover {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(177, 204, 229, 0.47) 0%, #87B2D9 100%);
+ 
+
+}
+
+
+.option-to-select{
+    border: 2.5px solid #87B2D9;
+    ;
+}
+
+.option-to-select:hover{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(177, 204, 229, 0.47) 0%, #87B2D9 100%);
+}
 
 
 
