@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>breathe</title>
+    <link href="/static/css/senses-start.css", rel = "stylesheet">
+    <link href = "/static/css/base.css", rel = "stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/senses.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <script src = "/static/js/senses.js"></script>
+</head>
+
+<body>
+
+    <div class = "text-container">
+        <h1 class = "number">5</h1>
+        <h2 class = "sense">senses</h2>
+        <br><br><br>
+        <h4 class="instructions">click on an empty circle each time <br> you identify something new</h4>
+        <div class="buttons">
+            <button onclick="location.href='/senses5'" type="button" class="button">start ></button>
+        </div>
+
+    </div>
+
+    <div class = "checklist" >
+        <button id = "option1" class = "option" onclick = "selectOption1()"></button>
+        <button class = "option" id = "option2" onclick = "selectOption2()"></button>
+        <button class = "option" id = "option3" onclick = "selectOption3()"></button>
+        <button class = "option" id = "option4" onclick = "selectOption4()"></button>
+        <button class = "option" id = "option5" onclick = "selectOption5()"></button>
+    </div>
+    
+    
+</body>
+
+
+
+</html>
