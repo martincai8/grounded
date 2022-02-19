@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resources</title>
 
-    <link rel="stylesheet" href="../css files/resources.css">
+    <link rel="stylesheet" href="../static/css/resources.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/resources.css') }}">
 </head>
 <body>
@@ -16,16 +16,28 @@
             <h1 class="resources-text">resources</h1>
         </div>
 
+        <div class="chat">
+            <h2>chat with someone:</h2>
+        </div>
+
         <ul class="resources-list">
-            <li><a href="https://crisiscentre.bc.ca/get-help/" target="_blank" rel="noopener noreferrer">crisis line</a></li>
+            <li><a href="https://crisiscentre.bc.ca/get-help/" target="_blank" rel="noopener noreferrer"><u>crisis line</u></a></li>
             <li><a href="https://www.betterhelp.com/
-                " target="_blank" rel="noopener noreferrer">online counselling</a></li>
+                " target="_blank" rel="noopener noreferrer"><u>online counselling</u></a></li>
             <li><a href="https://foundrybc.ca/virtual/peer-support/
-                " target="_blank" rel="noopener noreferrer">peer support</a></li>
-            <li><a href=" https://www.betterhelp.com/
-                " target="_blank" rel="noopener noreferrer">tips for maintaining mental wellness</a></li>
-                <br><br>
-            <li><a href="https://www.mhfa.ca/en/general-resources" target="_blank" rel="noopener noreferrer">general resources</a></li>
+                " target="_blank" rel="noopener noreferrer"><u>peer support</u></a></li>
+        </ul>
+
+        <div class="explore">
+            <h2>explore other resources:</h2>
+        </div>
+
+        <ul class="resources-list-2">
+            <li><a href="https://www.mhfa.ca/en/general-resources" target="_blank" rel="noopener noreferrer"><u>general resources</u></a></li>
+            <li><a href="https://moodle8.camhx.ca/moodle/
+                " target="_blank" rel="noopener noreferrer"><u>mental health workshops</u></a></li>
+            <li><a href="http://www.bcmhsus.ca/about/news-stories/stories/10-tips-to-boost-your-mental-health
+                " target="_blank" rel="noopener noreferrer"><u>tips for maintaining mental wellness</u></a></li>
         </ul>
 
         <div class="emergency">
@@ -33,7 +45,7 @@
         </div>
 
         <div class="buttons">
-            <button onclick="location.href='/breathe'" type="button" class="button">back to exercises</button>
+            <button onclick="location.href='/breathe'" type="button" class="button">< back to exercises</button>
         </div>
 
  
