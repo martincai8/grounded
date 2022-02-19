@@ -12,6 +12,5 @@ def breathe():
     return render_template("breathing.html")
 
 
-
 if __name__ == "__main__":
     app.run(debug = True)
