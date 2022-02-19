@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath static backend.app
+web: gunicorn --pythonpath static/backend/app.py
