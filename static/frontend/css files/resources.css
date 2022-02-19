@@ -22,6 +22,18 @@ overflow-x: hidden;
 
 body {
     background-color: #E1EBF5;
+    animation: fadeIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 button {
