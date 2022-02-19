@@ -6,14 +6,13 @@ body{
     align-items: center;
     justify-content: center;
 }
-.button {
+button {
     color: #B1CCE5;
     font-family: 'Nunito', sans-serif;
     border: none;
     width: 383px;
     height: 383px;
     text-align: center;
-    display: inline-block;
     font-size: 60px;
     margin:auto;
     top: 50%;
@@ -21,8 +20,9 @@ body{
     background: radial-gradient(50% 50% at 50% 50%, #FCFDFF 0%, rgba(252, 253, 255, 0.19) 100%);
 }
 
-.button:hover {
-    background:radial-gradient(25% 25% at 25% 25%, #FCFDFF 0%, rgba(252, 253, 255, 0.19) 100%)
+button:hover {
+    background:radial-gradient(25% 25% at 25% 25%, #FCFDFF 0%, rgba(252, 253, 255, 0.19) 100%);
+    cursor: pointer;
 
-
+    
 }

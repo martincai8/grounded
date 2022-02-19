@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Source+Sans+Pro:ital,wght@1,700&display=swap');
+
+* {
+
+font-family: 'nunito', 'sans-serif';
+box-sizing: border-box;
+overflow-y: hidden;
+overflow-x: hidden;
+
+}
+
 body {
     background-color: #E1EBF5;
 }
@@ -16,4 +27,8 @@ button {
 button:hover {
     background-color: rgba(255,255,255,0.35);
     cursor: pointer;
+}
+
+.buttons {
+    text-align: center;
 }
