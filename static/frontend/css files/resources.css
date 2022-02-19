@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Source+Sans+Pro:ital,wght@1,700&display=swap');
+
+* {
+font-family: 'nunito', 'sans-serif';
+box-sizing: border-box;
+overflow-x: hidden;
+}
+
+body {
+    background-color: #E1EBF5;
+}
+
+button {
+    background-color: transparent;
+    text-align: center;
+    border: 2px solid #87B2D9;
+    border-radius: 8px;
+    padding: 10px;
+    transition: 0.4s;
+    color: #87B2D9;
+    margin: 0px 5px 0px 5px;
+}
+
+button:hover {
+    background-color: #87B2D9;
+    color: white;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.title {
+    margin-left: 40px;
+    padding: 0;
+}
+
+.resources-text {
+    font-size: 400%;
+    color: #538CC0;
+    position: absolute;
+}
+
+.resources-list {
+    margin-left: 40px;
+    padding: 3px;
+    margin-top: 170px;
+    position: absolute;
+}
+
+li {
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 150%;
+    color: #538CC0;
+    transition: 0.4s;
+}
+
+li a:hover {
+    cursor: pointer;
+    color: #12406B;
+}
+
+.emergency {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 2%;
+}
+
+p {
+    color: #87B2D9;
+}
