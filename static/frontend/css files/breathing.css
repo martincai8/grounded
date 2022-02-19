@@ -13,21 +13,25 @@
     width: 573px;
     left: 433px;
     top: 225px;
-    border-radius: 0px; 
     background: radial-gradient(50% 50% at 50% 50%, #87B2D9 0%, rgba(177, 204, 229, 0) 100%);
+    border-radius: 50%; 
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 4s ease all;
 }
 
-.breathe-in {
+.main-text {
     font-size: 150%;
     color: white;
 }
 
-.circle-opacity {
-    opacity: 0;
+.light-circle {
+    background: radial-gradient(50% 50% at 50% 50%, #87B2D9 0%, rgba(177, 204, 229, 0) 100%);
 }
 
+.dark-circle {
+    background: radial-gradient(50% 50% at 50% 50%, #87B2D9 0%, rgba(135, 178, 217, 0.28) 100%);
+    opacity: 1;
+}
 
