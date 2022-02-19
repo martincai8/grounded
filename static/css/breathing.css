@@ -28,11 +28,11 @@
 }
 
 .circle-size {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 .buttons {
-    margin-top: 80vh;
+    margin-top: 65vh;
     position: absolute;
 }
 
