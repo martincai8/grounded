@@ -16,5 +16,9 @@ def breathe():
 def resources():
     return render_template("resources.html")
 
+@app.route("/senses")
+def senses():
+    return render_template("senses/senses5.html")
+
 if __name__ == "__main__":
     app.run(debug = True)
