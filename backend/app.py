@@ -10,6 +10,7 @@ def index():
 @app.route("/breathe")
 def breathe():
     return render_template("breathing.html")
+    # timer
 
 @app.route("/resources")
 def resources():
