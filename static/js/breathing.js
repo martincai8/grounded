@@ -11,8 +11,17 @@ const changeCircle = () => {
 
 // set h1 instruction text
 function changeText(text, otherText) {
-    document.getElementById("instructions").firstChild.data = text;
-    document.getElementById("second-line").firstChild.data = otherText;
+    var firstLine = document.getElementById("instructions");
+    var secondLine = document.getElementById("second-line");
+
+    firstLine.firstChild.data = text;
+    if (otherText != "") {
+        secondLine.firstChild.data = otherText;
+        secondLine.style.display = 'inline-block';
+    } else {
+        secondLine.style.display = 'none';
+    }
+
 };
 
 // change h1 instruction text every 3 seconds
