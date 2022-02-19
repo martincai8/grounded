@@ -20,6 +20,10 @@ button {
     background: radial-gradient(50% 50% at 50% 50%, #FCFDFF 0%, rgba(252, 253, 255, 0.19) 100%);
 }
 
+.start {
+    padding-top: 250px;
+}
+
 button:hover {
     background:radial-gradient(25% 25% at 25% 25%, #FCFDFF 0%, rgba(252, 253, 255, 0.19) 100%);
     cursor: pointer;
