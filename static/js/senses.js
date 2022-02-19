@@ -4,8 +4,6 @@ let option3 = document.getElementById("option3");
 let option4 = document.getElementById("option4");
 let option5 = document.getElementById("option5");
 
-
-
 function selectOption1() {
     let option1 = document.getElementById("option1");
     option1.classList.add("option-selected");
