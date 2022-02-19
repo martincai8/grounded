@@ -7,7 +7,7 @@ overflow-y: hidden;
 overflow-x: hidden;
 }
 
-.body {
+body {
     background-color: #E1EBF5;
 }
 
@@ -23,8 +23,8 @@ overflow-x: hidden;
 .circle {
     width: 400px;
     height: 400px;
-    border: 10px solid black;
     border-radius: 50%;
+    background: radial-gradient(white, #E1EBF5);
 }
 
 .circle {
@@ -35,4 +35,5 @@ overflow-x: hidden;
 
 .breathe-in {
     font-size: 150%;
+    color: #E1EBF5;
 }
