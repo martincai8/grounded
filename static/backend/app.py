@@ -1,13 +1,13 @@
-from pickle import TRUE
-from flask import Flask
+from flask import *
+import os
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="../frontend/templates")
 
 @app.route("/")
 def index():
-    return "<p>Hello, World!</p>"
+    return render_template("breathing.html")
 
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug = True)
