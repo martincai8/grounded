@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Source+Sans+Pro:ital,wght@1,700&display=swap');
+
+* {
+font-family: 'nunito', 'sans-serif';
+box-sizing: border-box;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+
+.body {
+    background-color: #E1EBF5;
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.breathe-in {
+    font-size: 150%;
+}
