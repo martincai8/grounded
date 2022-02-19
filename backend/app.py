@@ -1,7 +1,7 @@
 from flask import *
 import os
 
-app = Flask(__name__, template_folder="../frontend/templates")
+app = Flask(__name__, template_folder="../templates")
 
 @app.route("/")
 def index():
