@@ -6,7 +6,7 @@ const changeCircle = () => {
     circle.classList.add("circle-size");
     setTimeout(() => {
         circle.classList.remove("circle-size");
-    }, 4500);
+    }, 3500);
 };
 
 // set h1 instruction text
@@ -23,14 +23,14 @@ const textChange = () => {
         setTimeout(() => {
             changeText("slowly", "breathe out");
         }, 1500);
-    }, 3000);
+    }, 2000);
 };
 
 // animation loop
 const loop = setInterval(() => {
     changeCircle();
     textChange();
-}, 7500);
+}, 6500);
 
 // start the cycle on window load
 window.onload = function onLoad() {
