@@ -5,7 +5,7 @@ app = Flask(__name__, template_folder="../frontend/templates")
 
 @app.route("/")
 def index():
-    return render_template("breathing.html")
+    return render_template("start.html")
 
 
 
