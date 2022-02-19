@@ -1,11 +1,11 @@
 from pickle import TRUE
-from flask import Flask
+from flask import *
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="frontend/html files")
 
 @app.route("/")
 def index():
-    return "<p>Hello, World!</p>"
+    return render_template("frontend/html files/start.html")
 
 
 
