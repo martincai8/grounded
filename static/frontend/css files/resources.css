@@ -6,6 +6,20 @@ box-sizing: border-box;
 overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 4px;
+    box-shadow: inset 0 0 10px #538CC0;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #12406B;
+}
+
 body {
     background-color: #E1EBF5;
 }
@@ -30,7 +44,7 @@ button:hover {
 .main {
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: 98vh;
     background-size: cover;
     flex-direction: column;
     box-sizing: border-box;
@@ -38,6 +52,7 @@ button:hover {
 
 .title {
     margin-left: 40px;
+    margin-top: 50px;
     padding: 0;
 }
 
@@ -50,7 +65,7 @@ button:hover {
 .resources-list {
     margin-left: 40px;
     padding: 3px;
-    margin-top: 170px;
+    margin-top: 220px;
     position: absolute;
 }
 
@@ -82,4 +97,12 @@ li a:hover {
 
 p {
     color: #87B2D9;
+    text-align: center;
+    padding: 0px 20px 0px 20px
+}
+
+.buttons {
+    margin-left: 40px;
+    margin-top: 40px;
+    position: absolute;
 }
