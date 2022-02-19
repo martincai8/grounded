@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Start</title>  
-    <link href="/static/frontend/css files/start.css" rel="stylesheet">
+    <link href="/static/css/start.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/start.css') }}">
   </head>
   <body>
     <div>
-      <a href="/static/frontend/templates/breathing.html" >
-      <button class = "button">start</button>
+      <button onclick="location.href='/breathe'" type="button" class="button">start</button>
     </div>
 
     </a>

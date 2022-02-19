@@ -15,10 +15,6 @@ function changeText(text, otherText) {
     document.getElementById("second-line").firstChild.data = otherText;
 };
 
-function fadeText() {
-
-};
-
 // change h1 instruction text every 3 seconds
 const textChange = () => {
     changeText("breathe in", "");
