@@ -1,0 +1,127 @@
+
+
+/* .feelingNow, .greatJob{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: #87B2D9;
+    
+}
+
+.container {
+    width: 100%;
+    height: 150px;
+    
+}
+
+.greatJob {
+    height: fit-content;
+    margin: auto;
+    position: absolute;
+
+    
+}
+
+
+.feelingNow {
+    width: auto;
+    float: left;
+    height: fit-content;
+    color: #538CC0;
+    margin: auto;
+
+   
+}
+
+
+.smiley {
+    width: 500px;
+    float: left; 
+    height: 184;
+    margin-top: 3%;
+    margin-left: 7%;
+    text-align: center;
+    
+}
+
+.buttons {
+
+
+    
+}
+
+.sad,.happy {
+    padding-right: 15%;
+}
+
+ */
+
+ .greatJob{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: #87B2D9;
+}
+
+
+.feelingNow{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: #538CC0;
+
+}
+
+
+ .text, .smiley {
+     width: auto;
+     float: left;
+
+ }
+
+ .container {
+    width: 100%;
+    height: fit-content;
+    
+}
+
+.smiley {
+    width: 500px;
+    float: left; 
+    height: 184;
+    text-align: center;
+    margin-top: 8%;
+    padding-left:5%;
+    
+}
+.sad,.happy {
+    padding-right: 15%;
+
+}
+
+.container {
+    margin-left:15%;
+    margin-top:15%;
+}
+
+
+.buttons{
+    margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
