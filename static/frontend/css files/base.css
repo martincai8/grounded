@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Source+Sans+Pro:ital,wght@1,700&display=swap');
 
 * {
-
 font-family: 'nunito', 'sans-serif';
 box-sizing: border-box;
 overflow-y: hidden;
 overflow-x: hidden;
-
 }
 
 body {
     background-color: #E1EBF5;
+    animation: fadeIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 button {
@@ -25,7 +35,8 @@ button {
 }
 
 button:hover {
-    background-color: rgba(255,255,255,0.35);
+    background-color: #87B2D9;
+    color: white;
     cursor: pointer;
 }
 

@@ -1,12 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Source+Sans+Pro:ital,wght@1,700&display=swap');
-
-* {
-font-family: 'nunito', 'sans-serif';
-box-sizing: border-box;
-overflow-y: hidden;
-overflow-x: hidden;
-}
-
 .main {
     display: flex;
     width: 100vw;
@@ -17,23 +8,34 @@ overflow-x: hidden;
     flex-direction: column;
 }
 
-.circle {
-    height: 573px;
-    width: 573px;
-    left: 433px;
-    top: 225px;
-    border-radius: 0px; 
-    background: radial-gradient(50% 50% at 50% 50%, #87B2D9 0%, rgba(177, 204, 229, 0.06) 100%);
-}
-
-.circle {
+.circle, .circle-size {
+    height: 300px;
+    width: 300px;
+    left: 300px;
+    top: 300px;
+    background: radial-gradient(50% 50% at 50% 50%, #5192cf 0%, rgba(177, 204, 229, 0) 100%);
+    border-radius: 50%; 
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 4s ease all;
 }
 
-.breathe-in {
-    font-size: 150%;
+.main-text {
+    font-size: 110%;
     color: white;
+    text-align: center;
 }
 
+.circle-size {
+    transform: scale(2);
+}
+
+.buttons {
+    margin-top: 80vh;
+    position: absolute;
+}
+
+#second-line {
+    margin-top: -35px;
+}
