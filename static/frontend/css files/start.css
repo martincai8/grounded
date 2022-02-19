@@ -8,7 +8,6 @@ body{
 }
 .button {
     color: #B1CCE5;
-    background-color: #04AA6D;
     font-family: 'Nunito', sans-serif;
     border: none;
     width: 383px;
@@ -20,5 +19,10 @@ body{
     top: 50%;
     border-radius: 50%;
     background: radial-gradient(50% 50% at 50% 50%, #FCFDFF 0%, rgba(252, 253, 255, 0.19) 100%);
+}
+
+.button:hover {
+    background:radial-gradient(25% 25% at 25% 25%, #FCFDFF 0%, rgba(252, 253, 255, 0.19) 100%)
+
 
 }
