@@ -1,27 +1,31 @@
 const circle = document.querySelector('.circle');
 const instructions = document.querySelector('.main-text');
-const button = document.querySelector('.garbage');
 
 // change opacity of circle
 const changeCircle = () => {
-    circle.classList.add("dark-circle");
+    circle.classList.add("circle-size");
     setTimeout(() => {
-        circle.classList.remove("dark-circle");
-    }, 8000);
+        circle.classList.remove("circle-size");
+    }, 6000);
 };
+
+function changeText(text, otherText) {
+    document.getElementById("instructions").firstChild.data = text;
+    document.getElementById("second-line").firstChild.data = otherText;
+}
 
 const textChange = () => {
-    instructions.innerText = "breathe in";
+    changeText("breathe in", "");
     setTimeout(() => {
-        instructions.innerText = "hold";
+        changeText("hold", "");
         setTimeout(() => {
-            instructions.innerText = "slowly breathe out";
-        }, 4000);
-    }, 4000);
+            changeText("slowly", "breathe out");
+        }, 3000);
+    }, 3000);
 };
 
-button.addEventListener("click", () => {
+window.onload = function onLoad() {
     changeCircle();
     textChange();
-});
+}
 
