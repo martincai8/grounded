@@ -7,10 +7,6 @@ overflow-y: hidden;
 overflow-x: hidden;
 }
 
-body {
-    background-color: #E1EBF5;
-}
-
 .main {
     display: flex;
     width: 100vw;
@@ -18,13 +14,16 @@ body {
     align-items: center;
     justify-content: center;
     background-size: cover;
+    flex-direction: column;
 }
 
 .circle {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    background: radial-gradient(white, #E1EBF5);
+    height: 573px;
+    width: 573px;
+    left: 433px;
+    top: 225px;
+    border-radius: 0px; 
+    background: radial-gradient(50% 50% at 50% 50%, #87B2D9 0%, rgba(177, 204, 229, 0.06) 100%);
 }
 
 .circle {
@@ -35,5 +34,6 @@ body {
 
 .breathe-in {
     font-size: 150%;
-    color: #E1EBF5;
+    color: white;
 }
+
