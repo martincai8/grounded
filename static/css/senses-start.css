@@ -75,6 +75,15 @@ body {
     margin-left: 6px;
 }
 
+.option {
+    transition: 0.4s;
+}
+
+.option:hover {
+    background-color: #87B2D9;
+    color: white;
+    cursor: pointer;
+}
 
 
 
