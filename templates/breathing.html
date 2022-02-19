@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>breathe</title>
 
-    <link rel="stylesheet" href="../css files/breathing.css">
-    <link rel="stylesheet" href="../css files/base.css">
+    <!-- <link rel="stylesheet" href="../css files/breathing.css">
+    <link rel="stylesheet" href="../css files/base.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/breathing.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
 </head>
 <body>
     <div class="main">
@@ -25,6 +27,6 @@
 
     </div>
     
-    <script src="../js files/breathing.js"></script>
+    <script src="../js/breathing.js"></script>
 </body>
 </html>
