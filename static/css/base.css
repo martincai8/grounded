@@ -23,7 +23,7 @@ body {
     }
 }
 
-button {
+.button {
     background-color: transparent;
     text-align: center;
     border: 2px solid #87B2D9;
@@ -34,7 +34,7 @@ button {
     margin: 0px 5px 0px 5px;
 }
 
-button:hover {
+.button:hover {
     background-color: #87B2D9;
     color: white;
     cursor: pointer;
