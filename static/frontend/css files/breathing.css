@@ -15,16 +15,19 @@
     top: 225px;
     border-radius: 0px; 
     background: radial-gradient(50% 50% at 50% 50%, #87B2D9 0%, rgba(177, 204, 229, 0) 100%);
-}
-
-.circle {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 4s ease all;
 }
 
 .breathe-in {
     font-size: 150%;
     color: white;
 }
+
+.circle-opacity {
+    opacity: 0;
+}
+
 
