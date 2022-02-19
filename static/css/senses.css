@@ -46,6 +46,7 @@ body {
 
 
 .option-selected{
+    border: 2.5px solid #B1CCE5;
     background: radial-gradient(50% 50% at 50% 50%, rgba(177, 204, 229, 0.47) 0%, #B1CCE5 100%);
 }   
 
