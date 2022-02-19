@@ -19,5 +19,9 @@ def resources():
 def senses(page):
     return render_template("senses/senses{}.html".format(page))
 
+@app.route("/ending")
+def ending():
+    return render_template("ending.html")
+
 if __name__ == "__main__":
     app.run(debug = True)

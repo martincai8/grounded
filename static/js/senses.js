@@ -8,7 +8,7 @@ function selectOption1(moveOn) {
     let option1 = document.getElementById("option1");
     option1.classList.add("option-selected");
     if (moveOn) {
-        window.location.href = '/resources';
+        window.location.href = '/ending';
     }
 }
 
