@@ -21,7 +21,6 @@ function changeText(text, otherText) {
     } else {
         secondLine.style.display = 'none';
     }
-
 };
 
 // change h1 instruction text every 3 seconds
