@@ -19,6 +19,10 @@ def breathe():
 def resources():
     return render_template("resources.html")
 
+@app.route("/exercises")
+def exercises():
+    return render_template("exercises.html")
+
 
 @app.route("/sensesStart")
 def sensesStart():
@@ -32,11 +36,12 @@ def senses(page):
 
 @app.route("/checkin")
 def checkin():
-    return render_template("ending/ending.html", ending = False)
+    return render_template("ending/ending.html", ending=False)
+
 
 @app.route("/ending")
 def ending():
-    return render_template("ending/ending.html", ending = True)
+    return render_template("ending/ending.html", ending=True)
 
 
 if __name__ == "__main__":
