@@ -20,19 +20,23 @@
         <h2 class = "sense">senses</h2>
         <br><br><br>
         <h4 class="instructions">click on an empty circle each time <br> you identify something new</h4>
+        <div class="start">
             <button onclick="location.href='/senses/5'" type="button" class="button">start &#9658</button>
+        </div>
+            
  
     </div>
 
-    <div class = "checklist" >
-        <button id = "option1" class = "option" onclick = "selectOption1()"></button>
+    <!-- <div class = "checklist" >
+        <img src="{{ url_for ('static', filename='img/sensesStart.png')}}""> -->
+        <!-- <button id = "option1" class = "option" onclick = "selectOption1()"></button>
         <button class = "option" id = "option2" onclick = "selectOption2()"></button>
         <button class = "option" id = "option3" onclick = "selectOption3()"></button>
         <button class = "option" id = "option4" onclick = "selectOption4()"></button>
-        <button class = "option" id = "option5" onclick = "selectOption5()"></button>
-    </div>
-
-    <img src = "/static/img/grounded cursor flipped.png" width = "25" , height = "25">
+        <button class = "option" id = "option5" onclick = "selectOption5()"></button> -->
+    <!-- </div> -->
+    <img src="{{ url_for ('static', filename='img/sensesStart.png')}}"">
+    <!-- <img src = "/static/img/grounded cursor flipped.png" width = "25" , height = "25"> -->
 
 
     

@@ -6,6 +6,7 @@ body {
     box-sizing: border-box;
     align-items: center;
     margin-top: 70px;
+    flex-wrap: wrap;
 }
 
 .text-container{
@@ -43,19 +44,16 @@ body {
 }
 
 img {
-    position: absolute;
-
-left: 60%;
+    /* position: absolute; */
+    padding-left: 15%;
+    width:40%;
+    height:auto;
+    margin-bottom: -12%;
+/* left: 60%;
 right: 35.56%;
 top: 57.42%;
-bottom: 41.67%;
+bottom: 41.67%; */
 
-}
-
-.checklist{
-    padding-top: 12%;
-    padding-left: 5%;
-    width: fit-content;
 }
 
 .instructions {
@@ -71,13 +69,14 @@ bottom: 41.67%;
     transition: 0.4s;
     margin-right: 20px;
 }
-
+.start {
+    margin-top: 40px;
+}
 .button {
     width: 150px;
     height: 70px;
     font-size: 20px;
     color: #6B9AC6;
-
 }
 
 #option1 {
