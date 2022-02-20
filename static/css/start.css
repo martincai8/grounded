@@ -7,7 +7,7 @@ body{
     justify-content: center;
 }
 button {
-    color: #B1CCE5;
+    color: #FCFDFF;
     font-family: 'Nunito', sans-serif;
     border: none;
     width: 383px;
@@ -17,7 +17,7 @@ button {
     margin:auto;
     top: 50%;
     border-radius: 50%;
-    background: radial-gradient(50% 50% at 50% 50%, #FCFDFF 0%, rgba(252, 253, 255, 0.19) 80%);
+    background: radial-gradient(50% 50% at 50% 50%, #88B2D9 0%, rgba(255, 255, 255, 0.50) 100%);
 }
 
 .start {
@@ -25,7 +25,7 @@ button {
 }
 
 button:hover {
-    background:radial-gradient(50% 50% at 50% 50%, #FFFFFF 50%, rgba(252, 253, 255, 0.19) 100%);
+    background:radial-gradient(50% 50% at 50% 50%, #B1CCE5 20%, rgba(255, 255, 255, 0.9) 100%);
     cursor: pointer;
 
     

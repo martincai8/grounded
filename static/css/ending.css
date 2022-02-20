@@ -95,11 +95,9 @@
     text-align: center;
     margin-top: 8%;
     padding-left:5%;
-    
 }
 .sad,.happy {
     padding-right: 15%;
-
 }
 
 .container {
@@ -110,6 +108,7 @@
 
 .buttons{
     margin-top: 10%;
+    position: relative;
 }
 
 
