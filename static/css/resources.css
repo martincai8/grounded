@@ -58,7 +58,7 @@ button:hover {
 .main {
     display: flex;
     width: 100vw;
-    height: 98vh;
+    height: 85vh;
     background-size: cover;
     flex-direction: column;
     box-sizing: border-box;
@@ -109,14 +109,28 @@ li a:hover {
     color: #12406B;
 }
 
-.emergency {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    bottom: 1%;
-    font-weight: 700;
+@media (min-height: 700px) {
+    .emergency {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 1%;
+        font-weight: 700;
+    }
+}
+
+@media (max-height: 700px) {
+    .emergency {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        font-weight: 700;
+        margin-top: -30px;
+    }
 }
 
 p {
@@ -135,12 +149,13 @@ p {
     color: #538CC0;
     padding: 2px;
     margin-left: 10%;
+    position: absolute;
 }
 
 .chat {
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 .explore {
-    margin-top: 150px;
+    margin-top: 430px;
 }
