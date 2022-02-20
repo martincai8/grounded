@@ -3,7 +3,6 @@
 body {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     box-sizing: border-box;
     align-items: center;
     margin-top: 70px;
@@ -15,7 +14,7 @@ body {
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
-    font-size: 72px;
+    font-size: 80px;
     color: #87B2D9;
     display: flex;
     flex-direction: column;
@@ -27,14 +26,14 @@ body {
 }
 
 .sense {
-    margin-top: -20px;
+    margin-top: -50px;
     font-size: smaller;
     margin-left: 5px;
 }
 
 .option {
-    width: 100px;
-    height: 100px;
+    width: 124px;
+    height: 124px;
     border-radius: 50%;
     border: 2.5px solid #6B9AC6;
     box-sizing: border-box;
@@ -43,6 +42,16 @@ body {
    
 }
 
+img {
+    position: absolute;
+
+left: 60%;
+right: 35.56%;
+top: 57.42%;
+bottom: 41.67%;
+
+}
+/* 
 @media (min-width: 1200px) {
     .checklist {
         position: relative;
@@ -62,28 +71,52 @@ body {
         margin-right: 7%;
         padding-right: 10%;
     }
+} */
+
+.checklist{
+    padding-top: 12%;
+    padding-left: 5%;
+    width: fit-content;
 }
 
-.option-selected{
-    background: radial-gradient(50% 50% at 50% 50%, rgba(177, 204, 229, 0.47) 0%, #B1CCE5 100%);
-}   
+  
 
 .instructions {
-    margin-top: -300px;
+    margin-top: -350px;
     font-size: large;
+    font-size: 40px;
     color: #6B9AC6;
     margin-left: 6px;
+    line-height: 1em;
 }
 
 .option {
     transition: 0.4s;
+    margin-right: 20px;
 }
 
-.option:hover {
-    background-color: #87B2D9;
-    color: white;
-    cursor: pointer;
+.button {
+    width: 150px;
+    height: 70px;
+    font-size: 20px;
+    color: #6B9AC6;
+
 }
+
+#option1 {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(177, 204, 229, 0.47) 0%, #87B2D9 100%, #87B2D9 100%);
+}
+
+#option1, #option2 {
+    border: 3px solid #87B2D9
+}
+
+#option3, #option4, #option5 {
+    border: 2px solid #B1CCE5
+}
+
+
+
 
 
 

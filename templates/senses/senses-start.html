@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/senses.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
-    <script src = "/static/js/senses.js"></script>
+    <!-- <script src = "/static/js/senses.js"></script> -->
 </head>
 
 <body>
@@ -21,7 +21,7 @@
         <br><br><br>
         <h4 class="instructions">click on an empty circle each time <br> you identify something new</h4>
         <div class="buttons">
-            <button onclick="location.href='/senses5'" type="button" class="button">start ></button>
+            <button onclick="location.href='/senses5'" type="button" class="button">start &#9658</button>
         </div>
 
     </div>
@@ -33,6 +33,10 @@
         <button class = "option" id = "option4" onclick = "selectOption4()"></button>
         <button class = "option" id = "option5" onclick = "selectOption5()"></button>
     </div>
+
+    <img src = "/static/img/grounded cursor flipped.png" width = "25" , height = "25">
+
+
     
     
 </body>
