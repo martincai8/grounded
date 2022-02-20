@@ -6,7 +6,7 @@
     justify-content: space-between;
 }
 
-.text-container{
+.text-container {
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
@@ -25,7 +25,7 @@
     margin-top: -25%;
 }
 
-.option{
+.option {
     width: 124px;
     height: 124px;
     border-radius: 50%;
@@ -35,42 +35,48 @@
     background-color: #E1EBF5;
 }
 
-
-.checklist{
+.checklist {
     padding-left: 5%;
     
     width:60%;
     margin-top:22%;
     margin-left: auto;
     margin-right: auto;
-    
-    
 }
 
-.buttons {
-    margin-top: 12%;
-    text-align: center;
+@media (min-height: 700px) {
+    .buttons{
+        margin-top: 10%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
-/* button {
-    background-color: transparent;
-    text-align: center;
-    border: 2px solid #B1CCE5;
-    border-radius: 8px;
-    padding: 10px;
-    transition: 0.4s;
-    color: #87B2D9;
-    margin: 0px 5px 0px 5px;
-} */
+@media (max-height: 700px) {
+    .buttons{
+        margin-top: 10%;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
 
-
-.option-selected{
+.option-selected {
     border: 2.5px solid #87B2D9;
     background: radial-gradient(50% 50% at 50% 50%, rgba(177, 204, 229, 0.47) 0%, #87B2D9 100%);
 }   
-
-
-
 
 #option1 {
     border: 2.5px solid #87B2D9;
@@ -80,12 +86,9 @@
 
 #option1:hover {
     background: radial-gradient(50% 50% at 50% 50%, rgba(177, 204, 229, 0.47) 0%, #87B2D9 100%);
- 
-
 }
 
-
-.option-to-select{
+.option-to-select {
     border: 2.5px solid #87B2D9;
     ;
 }
