@@ -2,25 +2,34 @@
     overflow-y: visible;
 }
 
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90vh;
+}
+
+.heart {
+    height: fit-content;
+    margin-left: 80px;
+}
+
 .thats-great{
    font-family: Nunito;
    font-style: normal;
    font-weight: bold;
    font-size: 60px;
    color: #538CC0;
-   margin-top: 160px;
 }
 
 .container {
    width: fit-content;
    height: fit-content;
    margin-left: 10%;
-   margin-top: 10%;
 }
 
 .links {
    width: fit-content;
-   margin-left: 10%;
 }
 
 .links a {
