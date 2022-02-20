@@ -10,10 +10,10 @@
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
-    font-size: 4.4vw;
+    font-size: 72px;
     color: #87B2D9;
     padding-left: 13%;
-    margin-top:19%;
+    margin-top:20%;
     width: 40%;
 }
 
@@ -33,14 +33,14 @@
     box-sizing: border-box;
     margin-right: 20px;
     background-color: #E1EBF5;
-   
-   
 }
+
 
 .checklist{
     padding-left: 5%;
-    margin-top:22%;
+    
     width:60%;
+    margin-top:22%;
     margin-left: auto;
     margin-right: auto;
     
