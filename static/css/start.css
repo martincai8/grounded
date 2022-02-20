@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
-body{
+body {
     background-color: #E1EBF5;
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@ button {
 }
 
 button:hover {
-    background:radial-gradient(50% 50% at 50% 50%, #B1CCE5 20%, rgba(255, 255, 255, 0.9) 100%);
+    background: radial-gradient(50% 50% at 50% 50%, #B1CCE5 20%, rgba(255, 255, 255, 0.9) 100%);
     cursor: pointer;
 
     
