@@ -35,7 +35,6 @@
 }
 .sad, .happy {
     padding-right: 15%;
-    stroke:black !important;
 }
 
 .sad:hover, .happy:hover {
