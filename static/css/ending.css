@@ -99,12 +99,18 @@
 .sad,.happy {
     padding-right: 15%;
 }
-
+.happy::hover {
+    width:50000px;
+    fill:aqua !important;
+    
+}
+svg {
+    fill: black;
+}
 .container {
     margin-left:15%;
     margin-top:15%;
 }
-
 
 .buttons{
     margin-top: 10%;
