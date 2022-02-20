@@ -27,6 +27,5 @@ button {
 button:hover {
     background:radial-gradient(50% 50% at 50% 50%, #B1CCE5 20%, rgba(255, 255, 255, 0.9) 100%);
     cursor: pointer;
-
     
 }
