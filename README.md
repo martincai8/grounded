@@ -1,4 +1,6 @@
- ## 💡 Inspiration
+### Please visit https://grounded-stormhacks.herokuapp.com to try out <em> grounded </em>!
+
+## 💡 Inspiration
 A panic attack is a sudden episode of intense fear, triggering severe physiological and psychological reactions such as shortness of breath and a loss of control of one’s thoughts. According to the Canadian Mental Health Association, up to one third of adults may have a panic attack in any given year. As such, it can be very overwhelming to search for support resources or exercises when in this state of panic. In addition, the COVID-19 pandemic has increased the prevalence of these mental health issues and has made it harder to access in-person support. 
  
 ## 🙂 What <em>grounded</em> does
