@@ -57,6 +57,10 @@
 
  */
 
+ * {
+     overflow-y: visible;
+ }
+
  .greatJob{
     font-family: Nunito;
     font-style: normal;
@@ -82,12 +86,6 @@
 
  }
 
- .container {
-    width: 100%;
-    height: fit-content;
-    
-}
-
 .smiley {
     width: 500px;
     float: left; 
@@ -96,19 +94,55 @@
     margin-top: 8%;
     padding-left:5%;
 }
-.sad,.happy {
+.sad, .happy {
     padding-right: 15%;
     stroke:black !important;
 }
 
 .container {
+    width: fit-content;
+    height: fit-content;
     margin-left:15%;
     margin-top:15%;
+    border: 10px solid red;
 }
 
-.buttons{
-    margin-top: 10%;
-    position: relative;
+@media (min-height: 700px) {
+    .buttons{
+        margin-top: 10%;
+        outline: 10px solid green;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-height: 700px) {
+    .buttons{
+        margin-top: 10%;
+        outline: 10px solid green;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.main {
+    display: grid;
+    
+
 }
 
 
