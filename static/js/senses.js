@@ -8,7 +8,10 @@ function selectOption1(moveOn) {
     let option1 = document.getElementById("option1");
     let option2 = document.getElementById("option2");
     option1.classList.add("option-selected");
+    if (option2) {
     option2.classList.add("option-to-select");
+    }
+    console.log(moveOn);
     if (moveOn) {
         window.location.href = '/ending';
     }
@@ -20,7 +23,10 @@ function selectOption2(moveOn) {
     if (option1.classList.contains("option-selected")) {
         let option2 = document.getElementById("option2");
         option2.classList.add("option-selected");
+        if (option3) {
         option3.classList.add("option-to-select");
+        }
+        console.log(moveOn);
         if (moveOn) {
             window.location.href = '/senses/1';
         }
@@ -33,7 +39,10 @@ function selectOption3(moveOn) {
     if (option2.classList.contains("option-selected")) {
         let option3 = document.getElementById("option3");
         option3.classList.add("option-selected");
+        if (option4) {
         option4.classList.add("option-to-select");
+        }
+        console.log(moveOn);
         if (moveOn) {
             window.location.href = '/senses/2';
         }
@@ -47,7 +56,10 @@ function selectOption4(moveOn) {
     if (option3.classList.contains("option-selected")) {
         let option4 = document.getElementById("option4");
         option4.classList.add("option-selected");
+        if (option5) {
         option5.classList.add("option-to-select");
+        }
+        console.log(moveOn);
         if (moveOn) {
             window.location.href = '/senses/3';
         }
@@ -60,6 +72,8 @@ function selectOption5(moveOn) {
     if (option4.classList.contains("option-selected")) {
         let option5 = document.getElementById("option5");
         option5.classList.add("option-selected");
+        console.log(moveOn);
+
         if (moveOn) {
             window.location.href = '/senses/4';
         }
