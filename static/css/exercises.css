@@ -58,16 +58,10 @@ button:hover {
 .main {
     display: flex;
     width: 100vw;
-    height: 98vh;
+    height: 85vh;
     background-size: cover;
     flex-direction: column;
     box-sizing: border-box;
-}
-
-.title {
-    margin-left: 10%;
-    margin-top: 60px;
-    padding: 0;
 }
 
 .resources-text {
@@ -78,22 +72,21 @@ button:hover {
 }
 
 .resources-list {
-    margin-left: 10%;
     padding: 3px;
-    margin-top: 270px;
+    margin-top: 100px;
     position: absolute;
-    font-weight: 200;
+    font-weight: 700;
 }
 
 
 li {
-    margin-bottom: 160px;
+    margin-bottom: 75px;
     list-style-type: none;
 }
 
 li a {
     text-decoration: none;
-    font-size: 200%;
+    font-size: 300%;
     color: #538CC0;
     transition: 0.4s;
 }
