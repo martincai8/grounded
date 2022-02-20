@@ -22,11 +22,12 @@
             </div>
 
             <div class="links">
+                {% if not guidedBreathing: %}
                 <h1 class="continue-with">continue with</h1>
-                <h1 class="guided-breathing"><a href="">guided breathing</a></h1>
-    
-                <h1 class="try">try <span class="a-different-exercise"><a href="">a different exercise</a></span></h1>
-                <h1 class="view">view <span class="helpful-resources"><a href="">helpful resources</a></span></h1>
+                <h1 class="guided-breathing"><a href="/">guided breathing</a></h1>
+                {% endif %}
+                <h1 class="try">try <span class="a-different-exercise"><a href="/exercises">a different exercise</a></span></h1>
+                <h1 class="view">view <span class="helpful-resources"><a href="/resources">helpful resources</a></span></h1>
             </div>
         </div>
 

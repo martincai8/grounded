@@ -51,7 +51,7 @@ def hangInThere(page):
         return render_template("ending/hangInThere.html", guidedBreathing=True)
 
 @app.route("/thatsGreat")
-def hangInThere():
+def thatsGreat():
     return render_template("ending/thatsGreat.html")
 
 
