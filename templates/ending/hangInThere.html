@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hang in there...</title>
+    <title>Grounded</title>  
 
     <link href="/static/css/base.css" , rel="stylesheet">
     <link rel="stylesheet" href="/static/css/hangInThere.css">
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/hangInThere.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
 </head>
 <body>
     <div class="main">
+        <div class="textcontainer">
+
         <div class="container">
             <div class="text">
                     <H1 class="hang-in-there">hang in there,</H1>
                 <H1 class="you-can-do-it">you can do it!</H1>
             </div>
         </div>
+
         <div class="links">
             <h1 class="continue-with">continue with</h1>
             <h1 class="guided-breathing"><a href="">guided breathing</a></h1>
@@ -28,9 +32,11 @@
             <h1 class="view">view <span class="helpful-resources"><a href="">helpful resources</a></span></h1>
         </div>
 
-        <div class="heart">
-            <input type="image" name="submit" value="submit" class="heart" width="185" src="{{ url_for('static', filename='img/sad light1.svg') }}" onclick="location.href='/'"/>
+        <div class = "heart">
+        <img src = "/static/img/heart.svg" width = "90">
         </div>
+
+    </div>
 
     </div>
     
