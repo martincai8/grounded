@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>that's great!</title>
+
+    <link href="/static/css/base.css" , rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/thatsGreat.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/hangInThere.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="text">
+                    <H1 class="thats-great">that's great!</H1>
+            </div>
+        </div>
+        <div class="links">
+            <h1 class="learn-about">learn about</h1>
+            <h1 class="helpful-resources"><a href="">helpful resources</a></h1>
+        </div>
+
+        <div class="heart">
+            <input type="image" name="submit" value="submit" class="heart" width="185" src="{{ url_for('static', filename='img/sad light1.svg') }}" onclick="location.href='/'"/>
+        </div>
+
+    </div>
+    
+</body>
+</html>

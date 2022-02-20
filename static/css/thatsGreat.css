@@ -1,0 +1,53 @@
+* {
+    overflow-y: visible;
+}
+
+.thats-great{
+   font-family: Nunito;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 60px;
+   color: #538CC0;
+   margin-top: 160px;
+}
+
+.container {
+   width: fit-content;
+   height: fit-content;
+   margin-left: 10%;
+   margin-top: 10%;
+}
+
+.links {
+   width: fit-content;
+   margin-left: 10%;
+}
+
+.links a {
+   color: #538CC0;
+   transition: 0.4s;
+}
+
+.links a:hover {
+   color: #266198;
+}
+
+.learn-about {
+   color: #87B2D9;
+   margin-bottom: -32px;
+}
+
+.try, .helpful-resources {
+   margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
