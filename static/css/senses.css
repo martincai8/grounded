@@ -97,6 +97,10 @@
     background: radial-gradient(50% 50% at 50% 50%, rgba(177, 204, 229, 0.47) 0%, #87B2D9 100%);
 }
 
+.checklist {
+    text-align: center;
+}
+
 
 
 
