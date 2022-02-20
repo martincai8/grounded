@@ -32,11 +32,11 @@ def senses(page):
 
 @app.route("/checkin")
 def checkin():
-    return render_template("ending.html", ending = False)
+    return render_template("ending/ending.html", ending = False)
 
 @app.route("/ending")
 def ending():
-    return render_template("ending.html", ending = True)
+    return render_template("ending/ending.html", ending = True)
 
 
 if __name__ == "__main__":
