@@ -51,35 +51,12 @@ top: 57.42%;
 bottom: 41.67%;
 
 }
-/* 
-@media (min-width: 1200px) {
-    .checklist {
-        position: relative;
-        width: fit-content;
-        height: fit-content;
-        margin-right: 10%;
-    }
-}
-
-@media (max-width: 1200px) {
-    .checklist {
-        position: relative;
-        width: fit-content;
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-        margin-right: 7%;
-        padding-right: 10%;
-    }
-} */
 
 .checklist{
     padding-top: 12%;
     padding-left: 5%;
     width: fit-content;
 }
-
-  
 
 .instructions {
     margin-top: -350px;
