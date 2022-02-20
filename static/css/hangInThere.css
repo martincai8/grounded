@@ -1,5 +1,15 @@
-* {
-    overflow-y: visible;
+
+.main {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   height: 90vh;
+}
+
+.heart {
+   height: fit-content;
+   margin-left: 35px;
+   margin-top: -300px;
 }
 
 .hang-in-there, .you-can-do-it{
@@ -18,7 +28,6 @@
    width: fit-content;
    height: fit-content;
    margin-left: 10%;
-   margin-top: 10%;
 }
 
 .links {
@@ -46,20 +55,6 @@
 .try, .guided-breathing {
    margin-bottom: 50px;
 }
-
-
-.textcontainer {
-   width: 100%;
-
-}
-
-.heart {
-   position: absolute;
-   top: 28%;
-   left: 32%;
-}
-
-
 
 
 

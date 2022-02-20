@@ -40,7 +40,6 @@ body {
     box-sizing: border-box;
     margin-right: 3px;
     background-color: #E1EBF5;
-   
 }
 
 img {
@@ -49,11 +48,6 @@ img {
     width:40%;
     height:auto;
     margin-bottom: -12%;
-/* left: 60%;
-right: 35.56%;
-top: 57.42%;
-bottom: 41.67%; */
-
 }
 
 .instructions {
