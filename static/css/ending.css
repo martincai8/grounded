@@ -38,6 +38,10 @@
     stroke:black !important;
 }
 
+.sad:hover, .happy:hover {
+    filter: brightness(0) saturate(100%) invert(36%) sepia(13%) saturate(4098%) hue-rotate(174deg) brightness(83%) contrast(84%);
+}
+
 .container {
     width: fit-content;
     height: fit-content;
