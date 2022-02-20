@@ -43,6 +43,17 @@ def checkin():
 def ending():
     return render_template("ending/ending.html", ending=True)
 
+@app.route("/hangInThere/<int:page>")
+def hangInThere(page):
+    if page == 0:
+        return render_template("ending/hangInThere.html", guidedBreathing=False)
+    else:
+        return render_template("ending/hangInThere.html", guidedBreathing=True)
+
+@app.route("/thatsGreat")
+def hangInThere():
+    return render_template("ending/thatsGreat.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
