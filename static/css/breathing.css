@@ -19,6 +19,7 @@
     align-items: center;
     justify-content: center;
     transition: 2.5s ease all;
+    margin-top: -80px;
 }
 
 .main-text {
